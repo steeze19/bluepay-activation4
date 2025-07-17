@@ -92,7 +92,7 @@ const PaymentDetails: React.FC = () => {
       <div className="w-full max-w-md bg-white rounded-lg p-6 shadow-lg">
         <h2 className="text-2xl font-bold mb-2">Make Payment to Complete Activation</h2>
         <p className="text-gray-500 mb-6">
-          Please make a payment of 20,00p naira to complete your activation
+          Please make a payment of 20,000 naira to complete your activation
         </p>
 
         <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
