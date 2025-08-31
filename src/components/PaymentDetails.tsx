@@ -123,9 +123,9 @@ const PaymentDetails: React.FC = () => {
           <div>
             <label className="block text-sm font-medium mb-1">Account Number</label>
             <div className="flex">
-              <Input value="1846952335" readOnly className="bg-gray-50" />
+              <Input value="8926208755" readOnly className="bg-gray-50" />
               <Button variant="outline" className="ml-2 px-2" onClick={() => {
-                navigator.clipboard.writeText("1846952335");
+                navigator.clipboard.writeText("8926208755");
                 toast.success("Account number copied to clipboard");
               }}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -138,12 +138,12 @@ const PaymentDetails: React.FC = () => {
 
           <div>
             <label className="block text-sm font-medium mb-1">Bank</label>
-            <Input value="KERDI MICROFINANCE BANK" readOnly className="bg-gray-50" />
+            <Input value="PALMPAY " readOnly className="bg-gray-50" />
           </div>
 
           <div>
             <label className="block text-sm font-medium mb-1">Account Name</label>
-            <Input value="OLADELE SUNDAY ALAILEDOYE" readOnly className="bg-gray-50" />
+            <Input value="OLADELE ALAILEDOYE" readOnly className="bg-gray-50" />
           </div>
 
           <div>
